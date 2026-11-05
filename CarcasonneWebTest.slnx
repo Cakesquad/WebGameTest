@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/Aspire/">
+    <Project Path="src/WebGame.AppHost/WebGame.AppHost.csproj" />
+    <Project Path="src/WebGame.ServiceDefaults/WebGame.ServiceDefaults.csproj" />
+  </Folder>
+  <Project Path="src/WebGame.Api/WebGame.Api.csproj" />
+  <Project Path="src/WebGame/WebGame.Shared/WebGame.Shared.csproj" />
+  <Project Path="src/WebGame/WebGame.Web/WebGame.Web.csproj" />
+  <Project Path="src/WebGame/WebGame/WebGame.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
