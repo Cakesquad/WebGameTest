@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "WebGame.AppHost/WebGame.AppHost.csproj"
+  }
+}
