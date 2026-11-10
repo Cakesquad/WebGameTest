@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swagger.Bootstrap" Version="2.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WebGame.ServiceDefaults\WebGame.ServiceDefaults.csproj" />
   </ItemGroup>
 
